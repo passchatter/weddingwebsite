@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@500&family=Poppins&display=swap');
+
+:root{
+    --firs-color:#F1D6AB;
+    --second-color:#2B2B28;
+    --tiga-color:#B1BCE6;
+    --empat-color:#9A86A4;
+    --lima-color:#B7E5DD;
+    --enam-color:#F1F0C0;
+    --body-font: 'Poppins', sans-serif;
+    --normal-font-size: .790rem;
+    --h1-font: 1.5rem;
+    --h2-font: 1.25rem;
+    --h3-font: 1rem;
+}
+
+.body{
+    font-size: .865rem;
+    color:var(--second-color);
+    font-family: var(--body-font);
+    color:white;
+}
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.home{
+    background: linear-gradient(rgba(193, 192, 192, 0.4), rgba(193, 192, 192, 0.4)), url(../img/home1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.home-content{
+    color:white;
+    text-align: center;
+    margin-top: 5rem;
+   
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    max-width: 1024px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.home-title{
+    font-family: 'Amatic SC', cursive;
+    font-size: 5.5rem;
+    color:white;
+}
+
+.wedding-text{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-size: arial;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 3rem;
+}
+
+section{
+    padding:4rem 0 3rem;
+}
+
+.kekasih{
+   color: var(--tiga-color);
+   font-size: 1.5rem;
+   font-family: 'Poppins', sans-serif;
+}
+
+.mempelain-title, .alamat-title{
+    font-family: 'Amatic SC', cursive;
+    color:var(--empat-color);
+    font-size: 3rem;
+}
+
+.alamat-title, .galery-title{
+    color:var(--enam-color);
+    margin-top: .5rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.galery-title{
+    color:var(--tiga-color);
+    margin-bottom: 3rem;
+    font-family: 'Amatic SC', cursive;
+    font-size: 3.5rem;
+}
+
+.mempelain-text{
+    font-family: 'Poppins', sans-serif;
+    color:var(--tiga-color);
+    font-style: italic;
+    margin-top: 1rem;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.grid{
+    display: grid;
+}
+
+.mempelai-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-container{
+    grid-template-columns: repeat(2, 1fr);
+    gap:3rem;
+}
+
+.about-img{
+    width: 120px;
+    border-radius: 50%;
+    border: solid 1px var(--firs-color);
+}
+
+.about-card{
+    text-align: center;
+}
+
+.about-card .name{
+    border-bottom: dashed 3px var(--tiga-color);
+    padding-bottom: 1.6rem;
+    font-family: 'Amatic SC', cursive;
+    color:var(--empat-color);
+    margin-top: 1.5rem;
+    font-size: 2rem;
+}
+
+.about-card .ourtu{
+    margin-top: 1rem;
+}
+
+.about-card .ourtu h2{
+    font-size: .900rem;
+    color:var(--empat-color);
+    font-weight: bold;
+    margin-bottom: .8rem;
+}
+
+.about-card .ourtu h3{
+    font-size: .900rem;
+    color:var(--empat-color);
+    margin-bottom: .3rem;
+}
+
+
+.icon-social{
+    width: 50px;
+    height: 50px;
+    line-height: 50px !important;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: var(--lima-color);
+    border-radius: 50%;
+}
+
+.social-media{
+    margin-top: 1rem;
+}
+
+
+.alamat{
+    /* background-color: #cfb8d9;  */
+    background-color: var(--tiga-color);
+    color:white;
+}
+
+.alamat-text{
+    text-align: center;
+}
+
+.sarange-img{
+    width: 70px;
+}
+
+.sarange-content{
+    text-align: center;
+}
+
+
+.addres{
+    background:linear-gradient(rgba(193, 192, 192, 0.3), rgba(193, 192, 192, 0.3)), url(../img/about.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 3rem;
+    border-radius: 1rem 1rem 0 0;
+    height: 50vh;
+    border-radius: 3rem 3rem 0px 0px;
+}
+
+.addres-content h1{
+    color: white;
+    text-shadow: .5px .5px 3px rgba(0,0,0,.5);
+    font-family: 'Poppins', sans-serif;
+}
+
+.addres-content{
+    padding:0px 2rem;
+    padding-bottom: 1rem;
+}
+
+.waktu{
+    background-color: white;
+    padding:1rem;
+    color:var(--empat-color);
+    row-gap: 4rem;
+    border-radius: 0px 0px 1rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    padding-top: 4rem;
+}
+
+.waktu-title{
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+    margin-top: 1rem;
+    border-bottom: dashed 5px var(--tiga-color);
+   padding-bottom: 1rem;
+}
+
+.waktu-card{
+    padding:1rem;
+    width: 300px;
+}
+
+.waktu-img{
+    width: 70px;
+}
+
+.waktu-card ul{
+    margin-top: 2rem;
+}
+
+.waktu-card ul li{
+    margin-top: .5rem;
+   
+}
+
+.header-waktu{
+    text-align: center;
+}
+
+.icon-waktu{
+  font-size: 1rem;
+}
+
+.map{
+    max-width: 100%;
+   height: 250px;
+   border-radius: 1rem;
+   margin-bottom: 2rem;
+}
+
+
+.galery{
+    padding:7rem 0px;
+}
+
+.galery img{
+  border-radius: 1.5rem;
+  box-shadow: 0px 2px 4px rgba(0,0,0,.3);
+}
+
+.galery-container{
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap:1.5rem;
+}
+
+.slide{
+    background:linear-gradient(rgba(193, 192, 192, 0.3), rgba(193, 192, 192, 0.3)), url(../img/galery5.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.slide-content{
+    text-align: center;
+    padding: 0px 4rem;
+}
+
+.slide-title{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    text-shadow: 3px 3px 5px var(--tiga-color);
+}
+
+.copy{
+   text-align: end;
+}
+
+@media screen and (min-width: 770px){
+    .waktu{
+        grid-template-columns: repeat(2, 1fr);
+        gap:3rem;
+        padding:3rem 0px;
+    }
+    .map{
+        text-align: center;
+    }
+
+    .alamat-text{
+        padding: 0px 6rem;
+    }
+
+    .about-card .name{
+        border-bottom: dashed 3px var(--tiga-color);
+        padding-bottom: 1.6rem;
+        font-family: 'Amatic SC', cursive;
+        color:var(--empat-color);
+        margin-top: 1.5rem;
+        font-size: 2rem;
+    }
+    
+    .about-container{
+        margin-top: -2rem;
+        padding-bottom: 2rem;
+    }
+    .about-img{
+        width: 200px;
+        border-radius: 50%;
+        border:  dashed  3px var(--firs-color);
+    }
+    
+    .about-card{
+        padding:0px 4rem;
+    }
+    
+    .about-card .ourtu{
+        margin-top: .5rem;
+    }
+    
+    .about-card .ourtu h2{
+        font-size: 1.8rem;
+       
+    }
+    
+    .about-card .ourtu h3{
+        font-size: 1.2rem;
+        
+    }
+}
+
+
+
+@media screen and (min-width: 1024px){
+    .container{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
